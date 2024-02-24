@@ -62,3 +62,14 @@ body{
 .attribution a{
     color: #3e52a3;
 }
+
+@media only screen and (max-width: 600px) {
+    .cardContainer{
+        width: 80%;
+        height: 450px;
+    }
+
+    .qrContainer{
+        height: 200px;
+    }
+}
